@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramozz Restaurant | Mexican–Indian Fusion</title>
+</head>
+<body style="font-family: Arial; margin: 0; background-color: #fff8f0;">
+
+  <!-- Header -->
+  <header style="background-color: #ff7043; color: white; padding: 20px; text-align: center;">
+    <h1>🌮 Ramozz Restaurant 🍛</h1>
+    <p>Mexican–Indian Fusion | Taste the Best of Both Worlds</p>
+  </header>
+
+  <!-- Hero Image -->
+  <section style="text-align: center; margin: 20px;">
+    <img src="https://images.unsplash.com/photo-1600891964099-1eeb8d3bb71a" 
+         alt="Restaurant" width="90%" style="border-radius: 15px;">
+  </section>
+
+  <!-- Menu Section -->
+  <section style="padding: 20px;">
+    <h2 style="text-align: center; color: #d84315;">Our Menu</h2>
+
+    <h3>Main Dishes</h3>
+    <ul>
+      <li>Paneer Tikka Tacos</li>
+      <li>Masala Nachos</li>
+      <li>Spicy Burrito with Indian Curry</li>
+      <li>Butter Chicken Quesadilla</li>
+      <li>Chili Paneer Fajita</li>
+      <li>Mexican Biryani Bowl</li>
+      <li>Tandoori Veg Enchiladas</li>
+      <li>Rajma Rice Bowl</li>
+      <li>Cheese Stuffed Paratha Wrap</li>
+      <li>Spicy Veg Burrito</li>
+      <li>Paneer Butter Masala with Rice</li>
+      <li>Veg Tacos with Mint Sauce</li>
+      <li>Dal Makhani Burrito</li>
+      <li>Chole Quesadilla</li>
+      <li>Spicy Corn Tostada</li>
+      <li>Aloo Tikki Wrap</li>
+      <li>Mexican Samosa</li>
+      <li>Paneer Chimichanga</li>
+      <li>Masala Fries</li>
+      <li>Veggie Quesarito</li>
+    </ul>
+
+    <h3>Non-Alcoholic Drinks</h3>
+    <ul>
+      <li>Mango Lassi</li>
+      <li>Virgin Mojito</li>
+      <li>Cold Coffee</li>
+      <li>Sweet Lime Soda</li>
+      <li>Iced Tea</li>
+      <li>Fresh Lemon Juice</li>
+      <li>Masala Chaas</li>
+      <li>Coconut Water</li>
+      <li>Mint Cooler</li>
+      <li>Watermelon Juice</li>
+    </ul>
+  </section>
+
+  <!-- Reservation Form -->
+  <section style="padding: 20px; background-color: #ffe0b2;">
+    <h2 style="text-align: center;">Reserve a Table</h2>
+    <form style="max-width: 400px; margin: auto;">
+      <label>Name:</label><br>
+      <input type="text" name="name" style="width: 100%; padding: 8px;" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" style="width: 100%; padding: 8px;" required><br><br>
+
+      <label>Date:</label><br>
+      <input type="date" name="date" style="width: 100%; padding: 8px;" required><br><br>
+
+      <label>Time:</label><br>
+      <input type="time" name="time" style="width: 100%; padding: 8px;" required><br><br>
+
+      <label>Number of Guests:</label><br>
+      <input type="number" name="guests" min="1" max="20" style="width: 100%; padding: 8px;" required><br><br>
+
+      <input type="submit" value="Book Now" 
+             style="background-color: #d84315; color: white; border: none; padding: 10px 20px; cursor: pointer;">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer style="text-align: center; background-color: #ff7043; color: white; padding: 10px; margin-top: 20px;">
+    <p>© 2025 Ramozz Restaurant | Designed by Raghav</p>
+  </footer>
+
+</body>
+</html>
